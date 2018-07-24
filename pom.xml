@@ -1,0 +1,16 @@
+<build>
+    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+            <filtering>false</filtering>
+            <excludes>
+                <exclude>public/bower_components/**</exclude>
+                <exclude>public/coverage/**</exclude>
+                <exclude>public/node_modules/**</exclude>
+            </excludes>
+            <includes>
+                <include>**</include>
+            </includes>
+        </resource>
+    </resources>
+</build>
